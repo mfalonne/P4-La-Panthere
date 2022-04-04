@@ -95,12 +95,17 @@ a:hover {
     width:100px;
 }
 /* bloc-2 */
-.col-sm-12 p, .col-xs-12 p{
+.col-sm-12 p, .col-xs-12> p{
     font-size: 20px;
 }
+ .col-md-8 p{
+    font-style: italic;
+    font-weight: 700;
+}
+
 /* fin main */
 .texture-paper::before {
-    background: url("img/texture-paper.png");
+    /* background: url("img/texture-paper.png"); */
     background-size: 280px 280px;
 }
 
@@ -768,7 +773,7 @@ h4 {
 
 .bold-link {
     font-weight: 900;
-    text-decoration: underline!important;
+    /* text-decoration: underline!important; */
 }
 
 .bgc-white {
@@ -1039,7 +1044,7 @@ h4 {
 }
 
 @media (max-width: 400px) {
-    .bloc {
+    .bloc{
         padding-left: 0;
         padding-right: 0;
     }
