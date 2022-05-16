@@ -330,6 +330,10 @@ a:hover {
 .nav-center .navbar-brand img {
     margin: 0;
 }
+img{
+    width: 100%;
+    height: auto;
+}
 
 .navbar .nav {
     padding-top: 2px;
