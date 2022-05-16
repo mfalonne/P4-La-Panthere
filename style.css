@@ -92,7 +92,8 @@ a:hover {
 /* main */
 /* bloc-1 */
 .center-block{
-    width:100px;
+    width:110px;
+    border-radius: 40px;
 }
 /* bloc-2 */
 .col-sm-12 p, .col-xs-12> p{
